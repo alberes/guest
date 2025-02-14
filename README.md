@@ -1,5 +1,7 @@
 Spring boot Restful exemple with docker
 
+See in Dockerfile how to create mult stage build and copy jar file
+
 Here some basics command to create images and run it
 
 I am using name guest/springapi to create image and run with name guestapi and you can change those names.
