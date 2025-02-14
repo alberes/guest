@@ -6,26 +6,34 @@ I am using name guest/springapi to create image and run with name guestapi and y
 
 Before to run these commands open terminal into root folder folder with file Dockerfile.
 
-Create images with docker and SDK
+1 - Create images with docker and SDK
+
 docker build --tag guest/springapi .
 
-Run image
+2 - Run image
+
 docker run --name guestapi -p 8080:8080 -d guest/springapi
 
-See running docker
+3 - See running docker
+
 docker ps
 
-Stop container docker
+4 - Stop container docker
+
 docker stop guestapi
 
-Start container
+5 - Start container
+
 docker start guestapi
 
-Remove container (stop container before to run this command)
+6 - Remove container (stop container before to run this command)
+
 docker rm guestapi
 
-See all images
+7 - See all images
+
 docker images 
 
-Remove image
+8 - Remove image
+
 docker rmi guest/springapi
